@@ -1,0 +1,62 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 500px;
+  height: 300px;
+  box-sizing: border-box;
+  margin-left: 380px;
+  background-color: aqua;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  text-align: center;
+}
+.container > h3 {
+  color: gold;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  margin-left: 10px;
+  padding: 10px 0px 10px;
+}
+
+label {
+  font-size: large;
+  color: gold;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 10px;
+}
+
+input {
+  justify-content: center;
+  margin-left: 2px;
+  margin-top: 50px;
+  padding: 10px 0px 10px;
+  box-sizing: border-box;
+  width: 300px;
+  height: 25px;
+  border-color: brown;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.container > button {
+  background-color: blue;
+  border-radius: 5px;
+  width: 400px;
+  height: 50px;
+  color: white;
+  margin-top: 50px;
+}
+
+.togglebutton {
+  background-color: aquamarine;
+  border-radius: 5px;
+  width: 500px;
+  height: 40px;
+  color: white;
+  margin-top: 50px;
+}
